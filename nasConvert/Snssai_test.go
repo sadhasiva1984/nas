@@ -3,9 +3,9 @@ package nasConvert_test
 import (
 	"testing"
 
-	"github.com/free5gc/nas/nasConvert"
-	"github.com/free5gc/nas/nasType"
-	"github.com/free5gc/openapi/models"
+	"github.com/sadhasiva1984/nas/nasConvert"
+	"github.com/sadhasiva1984/nas/nasType"
+	"github.com/sadhasiva1984/openapi/models"
 	"github.com/stretchr/testify/require"
 )
 

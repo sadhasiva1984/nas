@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/free5gc/nas"
-	"github.com/free5gc/nas/logger"
-	"github.com/free5gc/nas/nasMessage"
+	"github.com/sadhasiva1984/nas"
+	"github.com/sadhasiva1984/nas/logger"
+	"github.com/sadhasiva1984/nas/nasMessage"
 )
 
 type nasMessageDeregistrationAcceptUEOriginatingDeregistrationData struct {

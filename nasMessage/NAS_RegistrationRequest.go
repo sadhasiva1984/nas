@@ -7,7 +7,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/free5gc/nas/nasType"
+	"github.com/sadhasiva1984/nas/nasType"
 )
 
 type RegistrationRequest struct {
@@ -394,8 +394,8 @@ func (a *RegistrationRequest) DecodeRegistrationRequest(byteArray *[]byte) error
 			if err := binary.Read(buffer, binary.BigEndian, a.S1UENetworkCapability.Buffer); err != nil {
 				return fmt.Errorf("NAS decode error (RegistrationRequest/S1UENetworkCapability): %w", err)
 			}
-			if len(a.S1UENetworkCapability.Buffer)!=int(a.S1UENetworkCapability.Len){
-				return fmt.Errorf("invalid payload length(RegistrationRequest/S1UENetworkCapability), expected length: %d, but get %d",a.S1UENetworkCapability.Len,len(a.S1UENetworkCapability.Buffer))
+			if len(a.S1UENetworkCapability.Buffer) != int(a.S1UENetworkCapability.Len) {
+				return fmt.Errorf("invalid payload length(RegistrationRequest/S1UENetworkCapability), expected length: %d, but get %d", a.S1UENetworkCapability.Len, len(a.S1UENetworkCapability.Buffer))
 			}
 		case RegistrationRequestUplinkDataStatusType:
 			a.UplinkDataStatus = nasType.NewUplinkDataStatus(ieiN)

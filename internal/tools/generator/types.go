@@ -5,7 +5,7 @@ package generator
 import (
 	"reflect"
 
-	"github.com/free5gc/nas/nasType"
+	"github.com/sadhasiva1984/nas/nasType"
 )
 
 var nasTypeTable map[string]reflect.Type = map[string]reflect.Type{

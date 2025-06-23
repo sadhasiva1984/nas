@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/free5gc/nas/nasType"
+	"github.com/sadhasiva1984/nas/nasType"
 )
 
 // TS24.501 v17.7.1, sec D.5.1

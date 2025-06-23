@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/free5gc/nas/internal/tools/generator"
+	"github.com/sadhasiva1984/nas/internal/tools/generator"
 )
 
 // Generate table of types in nasType package
@@ -21,7 +21,7 @@ func main() {
 	fOut := generator.NewOutputFile("internal/tools/generator/types.go", "generator", []string{
 		"\"reflect\"",
 		"",
-		"\"github.com/free5gc/nas/nasType\"",
+		"\"github.com/sadhasiva1984/nas/nasType\"",
 	})
 
 	fmt.Fprintln(fOut, "var nasTypeTable map[string]reflect.Type = map[string]reflect.Type{")

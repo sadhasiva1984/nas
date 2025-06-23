@@ -1,10 +1,10 @@
-module github.com/free5gc/nas
+module github.com/sadhasiva1984/nas
 
 go 1.21
 
 require (
 	github.com/aead/cmac v0.0.0-20160719120800-7af84192f0b1
-	github.com/free5gc/openapi v1.1.0
+	github.com/sadhasiva1984/openapi v1.2.0
 	github.com/sirupsen/logrus v1.9.3
 	github.com/smartystreets/goconvey v1.8.1
 	github.com/stretchr/testify v1.9.0

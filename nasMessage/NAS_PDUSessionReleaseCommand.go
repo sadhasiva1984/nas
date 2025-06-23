@@ -7,7 +7,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/free5gc/nas/nasType"
+	"github.com/sadhasiva1984/nas/nasType"
 )
 
 type PDUSessionReleaseCommand struct {
